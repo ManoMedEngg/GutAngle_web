@@ -176,12 +176,10 @@
 
             <!-- Auth Side -->
             <section class="auth-side">
-                <div class="auth-tabs">
-                    <div class="auth-tab-pill" id="tabPill" data-mode="signup"></div>
+                <div class="auth-tabs">             
                     <button class="auth-tab" id="tabSignup" data-active="true" onclick="switchTab('signup')">Sign
                         up</button>
-                    <button class="auth-tab" id="tabSignin" data-active="false" onclick="switchTab('signin')">Sign
-                        in</button>
+                 
                 </div>
 
                 <h2 class="auth-title" id="authTitle">Create GUTANGLE workspace</h2>
@@ -240,29 +238,7 @@
                     </div>
                 </form>
 
-                <!-- Sign In Form -->
-                <form id="signinForm" class="auth-form" data-active="false" onsubmit="handleSignin(event)">
-                    <div class="field-group">
-                        <label class="field-label">Email ID</label>
-                        <div class="field-control">
-                            <input class="field-input" type="email" id="si-email"
-                                placeholder="medicalengineer@gmail.com" required>
-                        </div>
-                    </div>
-                    <div class="field-group">
-                        <label class="field-label">Password</label>
-                        <div class="field-control">
-                            <input class="field-input" type="password" id="si-pass" placeholder="Enter your password"
-                                required>
-                        </div>
-                    </div>
-                    <div id="si-error" class="error-msg error-msg--error" style="display:none;"></div>
-                    <button type="submit" class="primary-btn" id="signin-submit-btn">Sign in &amp; Download APK</button>
-                    <div class="form-footer-row">
-                        <span>Don't have an account?</span>
-                        <button type="button" class="link-btn" onclick="switchTab('signup')">Sign up</button>
-                    </div>
-                </form>
+        
             </section>
         </main>
     </div>

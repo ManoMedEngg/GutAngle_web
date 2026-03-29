@@ -120,7 +120,7 @@ function triggerDownload() {
     toast.style.display = 'block';
 
     // Redirect to Google Drive folder
-    const driveLink = 'https://drive.google.com/drive/folders/1sCZWGTOVisNZXRqbuj7JPTC5s8uiKrIi?usp=sharing';
+    const driveLink = 'https://github.com/ManoMedEngg/GutAngle_application/releases/tag/1.0';
     window.open(driveLink, '_blank');
 
     setTimeout(() => {
